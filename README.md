@@ -1,2 +1,1 @@
-# OOP_Lab_20241_744520
 # Pham Duc Long 20225737
