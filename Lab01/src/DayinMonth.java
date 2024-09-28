@@ -18,17 +18,19 @@ public class DayinMonth {
         boolean isLeapYear = (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0));
         boolean check = false;
 
-        String day = "Sai dinh dang!";
+        String day = "";
         for (int i = 0; i < 4; ++i) {
             for (int j = 0; j < 12; ++j) {
                 if (Calendar[i][j].equals(month)) {
                     day = isLeapYear ? Calendar[5][j] : Calendar[4][j];
-                    check = true;
+                    if (year > 0 && year < 9999) check = true;
                     break;
                 }
             }
         }
-        day = check ? "So ngay trong thang la: " + day + " ngay" : day;
-        System.out.println(day);
+        if (check)
+            System.out.println("So ngay trong thang la: " + day + " ngay");
+        else
+            System.out.println("Sai dinh dang!");
     }
 }
