@@ -24,6 +24,7 @@ public class Cart {
             for (int i = check; i < qtyOrdered; i++)
                 itemsOrdered[i] = itemsOrdered[i + 1];
 
+            System.out.println("The disc " + disc.getTitle() + " has been removed.");
             qtyOrdered--;
         }
     }
