@@ -39,7 +39,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "refactor/packages",
+    "git-widget-placeholder": "topic/memory-management-string",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "F:/OOP_Lab_20241_744520/OtherProjects",
@@ -78,6 +78,7 @@
       <workItem from="1732335305725" duration="89000" />
       <workItem from="1732335450539" duration="139000" />
       <workItem from="1732353129264" duration="12000" />
+      <workItem from="1732368150273" duration="34000" />
     </task>
     <servers />
   </component>
