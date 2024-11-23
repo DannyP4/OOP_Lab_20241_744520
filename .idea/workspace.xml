@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="944d728b-be09-4694-ac0e-a61672fce5ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AimsProject/Design/Class Diagram0.asta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AimsProject/Design/Class Diagram0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AimsProject/Requirement/UseCase Diagram0.asta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AimsProject/Requirement/UseCase Diagram0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/test/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherProjects/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OtherProjects/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,18 +12,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "DannyP4"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DannyP4&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/DannyP4/OOP_Lab_20241_744520.git",
-    "accountId": "914949e9-3a26-46dc-8172-d309dfb98b72"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DannyP4/OOP_Lab_20241_744520.git&quot;,
+    &quot;accountId&quot;: &quot;914949e9-3a26-46dc-8172-d309dfb98b72&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 2
@@ -40,10 +36,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "refactor/apply-release-flow",
+    "git-widget-placeholder": "feature/demonstrate-release-flow",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/OOP_Lab_20241_744520/AimsProject",
+    "last_opened_file_path": "F:/OOP_Lab_20241_744520/AimsProject/src",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -78,6 +74,7 @@
       <workItem from="1732334333040" duration="38000" />
       <workItem from="1732334594560" duration="205000" />
       <workItem from="1732345078166" duration="86000" />
+      <workItem from="1732372008877" duration="16000" />
     </task>
     <servers />
   </component>
