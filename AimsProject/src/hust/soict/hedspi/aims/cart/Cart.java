@@ -18,27 +18,38 @@ public class Cart {
     }
 
     public void addDigitalVideoDisc(DigitalVideoDisc[] dvdList) {
-        if (qtyOrdered < MAX_NUMBERS_ORDERED) {
-            itemsOrdered[qtyOrdered] = dvdList[qtyOrdered];
-            qtyOrdered++;
-            System.out.println("The disc has been added.");
-        } else {
-            System.out.println("The cart is almost full.");
+        for (int i = 0; i < dvdList.length; i++) {
+            if (qtyOrdered < MAX_NUMBERS_ORDERED) {
+                itemsOrdered[qtyOrdered] = dvdList[i];
+                qtyOrdered++;
+                System.out.println("The disc has been added.");
+            } else {
+                System.out.println("The cart is almost full.");
+            }
         }
     }
 
 //    public void addDigitalVideoDisc(DigitalVideoDisc... dvdList) {
-//        if (qtyOrdered < MAX_NUMBERS_ORDERED) {
-//            itemsOrdered[qtyOrdered] = dvdList[qtyOrdered];
-//            qtyOrdered++;
-//            System.out.println("The disc has been added.");
-//        } else {
-//            System.out.println("The cart is almost full.");
+//        for (int i = 0; i < dvdList.length; i++) {
+//            if (qtyOrdered < MAX_NUMBERS_ORDERED) {
+//                itemsOrdered[qtyOrdered] = dvdList[i];
+//                qtyOrdered++;
+//                System.out.println("The disc has been added.");
+//            } else {
+//                System.out.println("The cart is almost full.");
+//            }
 //        }
 //    }
 
     public void addDigitalVideoDisc(DigitalVideoDisc dvd1, DigitalVideoDisc dvd2) {
-
+        if(qtyOrdered < MAX_NUMBERS_ORDERED) {
+            itemsOrdered[qtyOrdered] = dvd1;
+            itemsOrdered[qtyOrdered + 1] = dvd2;
+            qtyOrdered += 2;
+            System.out.println("The disc " + dvd1.getTitle() + " and" + dvd2.getTitle() + " has been added.");
+        } else {
+            System.out.println("The cart is almost full.");
+        }
     }
 
     public void removeDigitalVideoDisc(DigitalVideoDisc disc) {
