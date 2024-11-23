@@ -1,4 +1,4 @@
-package hust.soict.hedspi.aims.store;
+package hust.soict.hedspi.aims;
 
 import hust.soict.hedspi.aims.cart.Cart;
 import hust.soict.hedspi.aims.disc.DigitalVideoDisc;
@@ -20,7 +20,7 @@ public class Aims {
 //        anOrder.addDigitalVideoDisc(dvd3);
 
         DigitalVideoDisc[] dvdList = {dvd1, dvd2, dvd3};
-        anOrder.addDigitalVideoDisc(dvd1, dvd2);
+        anOrder.addDigitalVideoDisc(dvdList);
 
 //        anOrder.removeDigitalVideoDisc(dvd2);
 
